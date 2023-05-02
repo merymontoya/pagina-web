@@ -1,0 +1,24 @@
+.footer{
+    height: 530px;
+    background-image: url(./img/stage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -100px;
+    color: white;
+}
+@media (max-width:580px) {
+    footer{
+        background-size:auto;
+        background-position: center;
+    }
+}
+
+.titulo{
+    content:"";
+    width: 40%;
+    height: 60%;
+    background-color: rgb(19, 18, 18);
+    position:absolute;
+    opacity: 0.5;
+    
+}
